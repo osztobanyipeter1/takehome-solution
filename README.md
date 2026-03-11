@@ -1,5 +1,32 @@
 # Adiumsoft PHP / React gyakorlati feladat
 
+## Megoldás
+#### Elindítás
+
+Clone-ozás után:
+
+```sh
+cd takehome
+cp .env.example .env
+```
+
+Utána pedig:
+
+```sh
+cd migrations
+unzip data.zip
+```
+
+Majd:
+```sh
+docker compose up prod db
+```
+
+(Futtatás előtt töröltem a Docker-ből az Image, Volume, Container-t is, hogy ne legyen semmi konfliktus a hívásoknál.)
+#### Extrák
+
+Az extra feladatok is elvileg készen vannak. Teszthez csak kettő kis tesztet írtam, hogy van-e visszatérési adata a city illetve a regio esetében. A harmadik extra részhez csak egy észrevételt írtam, amit felfedeztem, illetve a negyedik feladat format és analyse hibáit kijavítottam.
+
 ## Előkészületek
 
 Legyenek feltelepítve az alábbi programok:
